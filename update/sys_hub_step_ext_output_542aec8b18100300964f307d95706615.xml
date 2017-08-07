@@ -37,7 +37,7 @@
         <label>payload</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">842aac8b18100300964f307d957066da</model>
+        <model display_value="Create payload">842aac8b18100300964f307d957066da</model>
         <model_id>842aac8b18100300964f307d957066da</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_842aac8b18100300964f307d957066da</name>

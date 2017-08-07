@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Post Message">92968c803b20030057a4a2e334efc40d</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Post Message">7a4400c43b20030057a4a2e334efc470</compiled_snapshot>
+        <display_text/>
+        <flow display_value="slack flow">ab4ea40f18100300964f307d957066ba</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-07 23:07:50</sys_created_on>
+        <sys_id>3a2504c43b20030057a4a2e334efc46d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3a2504c43b20030057a4a2e334efc46d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-07 23:18:07</sys_updated_on>
+        <ui_id>36f5abb5-e4e9-4329-9702-f467126693f1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3a2504c43b20030057a4a2e334efc46d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3a2504c43b20030057a4a2e334efc46d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-07 23:07:50</sys_created_on>
+        <sys_id>3a2504c43b20030057a4a2e334efc470</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-07 23:07:50</sys_updated_on>
+        <value>T6JFC2QQL/B6HQSUARE/Inm7L7M4HkRHGB2lOd0A4vJ4</value>
+        <variable display_value="">ae3ea73f3b10030057a4a2e334efc4ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3a2504c43b20030057a4a2e334efc46d</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-07 23:10:53</sys_created_on>
+        <sys_id>7fd548003b20030057a4a2e334efc413</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-07 23:10:53</sys_updated_on>
+        <value>tyu</value>
+        <variable display_value="">0b4400c43b20030057a4a2e334efc496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3a2504c43b20030057a4a2e334efc46d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-07 23:07:50</sys_created_on>
+        <sys_id>be2504c43b20030057a4a2e334efc470</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-07 23:07:50</sys_updated_on>
+        <value>hi</value>
+        <variable display_value="">6e3e6b3f3b10030057a4a2e334efc4dd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3a2504c43b20030057a4a2e334efc46d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-07 23:07:50</sys_created_on>
+        <sys_id>be2544c43b20030057a4a2e334efc40c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-07 23:07:50</sys_updated_on>
+        <value>T6JFC2QQL/B6HQSUARE/Inm7L7M4HkRHGB2lOd0A4vJ4</value>
+        <variable display_value="">7a4400c43b20030057a4a2e334efc473</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3a2504c43b20030057a4a2e334efc46d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-07 23:18:07</sys_created_on>
+        <sys_id>e98748c03b20030057a4a2e334efc4d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-07 23:18:07</sys_updated_on>
+        <value>T6JFC2QQL/B6HQSUARE/Inm7L7M4HkRHGB2lOd0A4vJ4</value>
+        <variable display_value="">92968c803b20030057a4a2e334efc410</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3a2504c43b20030057a4a2e334efc46d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-07 23:10:53</sys_created_on>
+        <sys_id>f7d548003b20030057a4a2e334efc414</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-07 23:10:53</sys_updated_on>
+        <value>hello</value>
+        <variable display_value="">0b4400c43b20030057a4a2e334efc480</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3a2504c43b20030057a4a2e334efc46d</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-07 23:07:50</sys_created_on>
+        <sys_id>fa2504c43b20030057a4a2e334efc470</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-07 23:07:50</sys_updated_on>
+        <value>dsfk;lk</value>
+        <variable display_value="">4c2aac8b18100300964f307d957066b5</variable>
+    </sys_variable_value>
+</record_update>
