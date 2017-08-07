@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="ah_message" label="Message" language="en" table="var__m_sys_hub_action_input_112c140b18100300964f307d957066c7">
+    <sys_documentation element="ah_slack_channel" label="Slack Channel" language="en" table="var__m_sys_hub_action_input_91be6f3f3b10030057a4a2e334efc401">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>ah_message</element>
+            <element>ah_slack_channel</element>
             <help/>
             <hint/>
-            <label>Message</label>
+            <label>Slack Channel</label>
             <language>en</language>
-            <name>var__m_sys_hub_action_input_112c140b18100300964f307d957066c7</name>
-            <plural>Message</plural>
+            <name>var__m_sys_hub_action_input_91be6f3f3b10030057a4a2e334efc401</name>
+            <plural>Slack Channel</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-04 23:15:21</sys_created_on>
-            <sys_id>731aac8b18100300964f307d95706695</sys_id>
+            <sys_created_on>2017-08-07 21:29:43</sys_created_on>
+            <sys_id>a5be6f3f3b10030057a4a2e334efc428</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Message</sys_name>
+            <sys_name>Slack Channel</sys_name>
             <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
             <sys_policy/>
             <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
-            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_112c140b18100300964f307d957066c7_ah_message_en</sys_update_name>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_91be6f3f3b10030057a4a2e334efc401_ah_slack_channel_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-04 23:15:21</sys_updated_on>
+            <sys_updated_on>2017-08-07 21:29:43</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
