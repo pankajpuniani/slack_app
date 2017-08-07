@@ -5,7 +5,7 @@
         <description/>
         <label_cache>[]</label_cache>
         <name>pf4</name>
-        <parent_flow display_value="pf4">dd61b84f18100300964f307d9570664f</parent_flow>
+        <parent_flow/>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>

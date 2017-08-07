@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Post Message">16e8bafb3b10030057a4a2e334efc4a1</action_type>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="slack flow">6419fafb3b10030057a4a2e334efc422</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-07 17:35:20</sys_created_on>
+        <sys_id>2c19fafb3b10030057a4a2e334efc4d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+        <sys_update_name>sys_hub_action_instance_2c19fafb3b10030057a4a2e334efc4d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-07 17:35:20</sys_updated_on>
+        <ui_id>660f2845-5463-46c4-b0a9-84010c7e6976</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2c19fafb3b10030057a4a2e334efc4d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2c19fafb3b10030057a4a2e334efc4d4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-07 17:35:20</sys_created_on>
+        <sys_id>6819fafb3b10030057a4a2e334efc4d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-07 17:35:20</sys_updated_on>
+        <value>T6JFC2QQL/B6HQSUARE/Inm7L7M4HkRHGB2lOd0A4vJ4</value>
+        <variable display_value="">1ee8bafb3b10030057a4a2e334efc4a3</variable>
+    </sys_variable_value>
+</record_update>
