@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan_id>460838143b20030057a4a2e334efc4ec</plan_id>
+        <snapshot>9948b8143b20030057a4a2e334efc497</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-08 21:29:35</sys_created_on>
+        <sys_id>e948b8143b20030057a4a2e334efc4a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6d48b8143b20030057a4a2e334efc4a4</sys_name>
+        <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_e948b8143b20030057a4a2e334efc4a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-08 21:29:35</sys_updated_on>
+        <trigger display_value="">6d48b8143b20030057a4a2e334efc4a4</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

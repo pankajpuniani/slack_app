@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[]</label_cache>
+        <latest_snapshot display_value="Slack flow2">9948b8143b20030057a4a2e334efc497</latest_snapshot>
+        <name>Slack flow2</name>
+        <show_draft_actions>false</show_draft_actions>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-08 21:28:32</sys_created_on>
+        <sys_id>460838143b20030057a4a2e334efc4ec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Slack flow2</sys_name>
+        <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+        <sys_update_name>sys_hub_flow_460838143b20030057a4a2e334efc4ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-08 21:29:35</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

@@ -31,6 +31,8 @@
         <element>icon_emoji</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
