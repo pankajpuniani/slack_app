@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_slack_channel}}","label":"action➛Slack Channel","type":"action","ref":""},{"name":"{{action.ah_webhook_icon}}","label":"action➛Webhook Icon","type":"action","ref":""},{"name":"{{action.ah_incident_record}}","label":"action➛Incident Record","type":"action","ref":"incident"},{"name":"{{action.ah_slack_channel_alias}}","label":"action➛Slack Channel Alias","type":"action","ref":"sys_alias"},{"name":"{{action.ah_slack_webhook_username}}","label":"action➛Slack Webhook Username","type":"action","ref":""},{"name":"{{action.ah_additional_message}}","label":"action➛Additional Message","type":"action","ref":""},{"name":"{{step[7766f93d-ee2a-4f83-b884-145536aa7627].payload}}","label":"step➛Create Payload➛payload","type":"step","ref":""}]</label_cache>
+        <name>Post Incident Details (Alias)</name>
+        <outputs/>
+        <parent_action display_value="Post Incident Details (Alias)">6529bb3c3ba0030057a4a2e334efc45a</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-11 01:04:32</sys_created_on>
+        <sys_id>25ac7b7c3ba0030057a4a2e334efc404</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Post Incident Details (Alias)</sys_name>
+        <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_25ac7b7c3ba0030057a4a2e334efc404</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-11 01:04:32</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=25ac7b7c3ba0030057a4a2e334efc404"/>
+    <sys_variable_value action="delete_multiple" query="document_key=25ac7b7c3ba0030057a4a2e334efc404"/>
+</record_update>

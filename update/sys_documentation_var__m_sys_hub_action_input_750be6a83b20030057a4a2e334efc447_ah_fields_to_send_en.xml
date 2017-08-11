@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="ah_fields_to_send" label="Fields to send" language="en" table="var__m_sys_hub_action_input_750be6a83b20030057a4a2e334efc447">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ah_fields_to_send</element>
+            <help/>
+            <hint/>
+            <label>Fields to send</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_750be6a83b20030057a4a2e334efc447</name>
+            <plural>Fields to send</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-10 00:29:26</sys_created_on>
+            <sys_id>7d0be6a83b20030057a4a2e334efc459</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Fields to send</sys_name>
+            <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_750be6a83b20030057a4a2e334efc447_ah_fields_to_send_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-10 00:29:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -6,8 +6,8 @@
         <annotation/>
         <category/>
         <description/>
-        <label_cache>[{"name":"{{action.ah_username}}","label":"action➛Username","type":"action","ref":""},{"name":"{{action.ah_slack_channel}}","label":"action➛Slack Channel","type":"action","ref":""},{"name":"{{action.ah_icon}}","label":"action➛icon","type":"action","ref":""},{"name":"{{action.ah_webhook_path_required_}}","label":"action➛Webhook path (Required)","type":"action","ref":""},{"name":"{{action.ah_message_required_}}","label":"action➛Message (Required)","type":"action","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].p}}","label":"Create payloadstep➛➛p","type":"step","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].pa}}","label":"Create payloadstep➛➛pa","type":"step","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].pay}}","label":"Create payloadstep➛➛pay","type":"step","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].payl}}","label":"Create payloadstep➛➛payl","type":"step","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].paylo}}","label":"Create payloadstep➛➛paylo","type":"step","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].payloa}}","label":"Create payloadstep➛➛payloa","type":"step","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].payload}}","label":"Create payloadstep➛➛payload","type":"step","ref":""},{"name":"{{step[ea620a4f-8d0d-4ac5-b17d-24b276f35229].status_code}}","label":"step➛REST step➛Status code","type":"step","ref":""},{"name":"{{step[ea620a4f-8d0d-4ac5-b17d-24b276f35229].response_body}}","label":"step➛REST step➛Response body","type":"step","ref":""}]</label_cache>
-        <latest_snapshot display_value="Post Message">4b8b40803b20030057a4a2e334efc434</latest_snapshot>
+        <label_cache>[{"name":"{{action.ah_slack_channel}}","label":"action➛Slack Channel","type":"action","ref":""},{"name":"{{action.ah_webhook_username}}","label":"action➛Webhook Username","type":"action","ref":""},{"name":"{{action.ah_webhook_icon}}","label":"action➛Webhook Icon","type":"action","ref":""},{"name":"{{action.ah_webhook_url}}","label":"action➛Webhook URL","type":"action","ref":""},{"name":"{{action.ah_message}}","label":"action➛Message","type":"action","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].p}}","label":"Create payloadstep➛➛p","type":"step","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].pa}}","label":"Create payloadstep➛➛pa","type":"step","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].pay}}","label":"Create payloadstep➛➛pay","type":"step","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].payl}}","label":"Create payloadstep➛➛payl","type":"step","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].paylo}}","label":"Create payloadstep➛➛paylo","type":"step","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].payloa}}","label":"Create payloadstep➛➛payloa","type":"step","ref":""},{"name":"{{step[7355586e-fdbb-4af7-99ab-18d8733dfdb5].payload}}","label":"Create payloadstep➛➛payload","type":"step","ref":""},{"name":"{{step[ea620a4f-8d0d-4ac5-b17d-24b276f35229].status_code}}","label":"POST Messagestep➛➛Status code","type":"step","ref":""},{"name":"{{step[ea620a4f-8d0d-4ac5-b17d-24b276f35229].response_body}}","label":"POST Messagestep➛➛Response body","type":"step","ref":""}]</label_cache>
+        <latest_snapshot display_value="Post Message">5176333c3ba0030057a4a2e334efc45b</latest_snapshot>
         <name>Post Message</name>
         <outputs/>
         <state>published</state>
@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-04 22:14:17</sys_created_on>
         <sys_id>112c140b18100300964f307d957066c7</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name>Post Message</sys_name>
         <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_112c140b18100300964f307d957066c7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-07 23:35:43</sys_updated_on>
+        <sys_updated_on>2017-08-11 00:37:31</sys_updated_on>
         <system_level>false</system_level>
     </sys_hub_action_type_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=112c140b18100300964f307d957066c7"/>
