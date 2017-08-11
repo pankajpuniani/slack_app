@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_slack_channel}}","label":"action➛Slack Channel","type":"action","ref":""},{"name":"{{action.ah_webhook_icon}}","label":"action➛Webhook Icon","type":"action","ref":""},{"name":"{{action.ah_slack_channel_alias}}","label":"action➛Slack Channel Alias","type":"action","ref":"sys_alias"},{"name":"{{action.ah_slack_webhook_username}}","label":"action➛Slack Webhook Username","type":"action","ref":""},{"name":"{{action.ah_additional_message}}","label":"action➛Additional Message","type":"action","ref":""},{"name":"{{action.ah_problem_record}}","label":"action➛Problem Record","type":"action","ref":"incident"},{"name":"{{step[fce274a5-832f-4389-9dcb-5bb89567662a].payload}}","label":"step➛Create Payload➛payload","type":"step","ref":""},{"name":"{{step[d5e74e0f-2af2-4d27-8ac8-d5cf6b974578].status_code}}","label":"step➛POST Problem Details➛Status code","type":"step","ref":""},{"name":"{{step[d5e74e0f-2af2-4d27-8ac8-d5cf6b974578].response_body}}","label":"POST Problem Detailsstep➛➛Response body","type":"step","ref":""}]</label_cache>
+        <name>Post Problem Details</name>
+        <outputs/>
+        <parent_action display_value="Post Problem Details">7b0024593b20030057a4a2e334efc492</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-11 23:19:46</sys_created_on>
+        <sys_id>cd4e245d3b20030057a4a2e334efc43a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Post Problem Details</sys_name>
+        <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_cd4e245d3b20030057a4a2e334efc43a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-11 23:19:46</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=cd4e245d3b20030057a4a2e334efc43a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=cd4e245d3b20030057a4a2e334efc43a"/>
+</record_update>

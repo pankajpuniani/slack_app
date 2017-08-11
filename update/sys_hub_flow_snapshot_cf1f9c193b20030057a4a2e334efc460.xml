@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
+        <name>inci flow with alias</name>
+        <parent_flow display_value="inci flow with alias">027b737c3ba0030057a4a2e334efc4bc</parent_flow>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-11 22:13:34</sys_created_on>
+        <sys_id>cf1f9c193b20030057a4a2e334efc460</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>inci flow with alias</sys_name>
+        <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_cf1f9c193b20030057a4a2e334efc460</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-11 22:13:34</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

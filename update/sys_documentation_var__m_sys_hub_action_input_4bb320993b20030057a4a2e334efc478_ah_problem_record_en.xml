@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="ah_problem_record" label="Problem Record" language="en" table="var__m_sys_hub_action_input_4bb320993b20030057a4a2e334efc478">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ah_problem_record</element>
+            <help/>
+            <hint/>
+            <label>Problem Record</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_4bb320993b20030057a4a2e334efc478</name>
+            <plural>Problem Record</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 22:33:46</sys_created_on>
+            <sys_id>43b320993b20030057a4a2e334efc48a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Problem Record</sys_name>
+            <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_4bb320993b20030057a4a2e334efc478_ah_problem_record_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 22:33:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

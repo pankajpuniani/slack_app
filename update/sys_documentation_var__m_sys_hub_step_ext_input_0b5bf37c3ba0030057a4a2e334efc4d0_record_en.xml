@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="record" label="record" language="en" table="var__m_sys_hub_step_ext_input_0b5bf37c3ba0030057a4a2e334efc4d0">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>record</element>
+            <help/>
+            <hint/>
+            <label>record</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_input_0b5bf37c3ba0030057a4a2e334efc4d0</name>
+            <plural>record</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 22:12:59</sys_created_on>
+            <sys_id>fafe1c193b20030057a4a2e334efc445</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>record</sys_name>
+            <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_input_0b5bf37c3ba0030057a4a2e334efc4d0_record_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 22:12:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

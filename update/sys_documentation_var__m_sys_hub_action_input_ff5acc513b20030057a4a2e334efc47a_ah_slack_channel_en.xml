@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="ah_slack_channel" label="Slack Channel" language="en" table="var__m_sys_hub_action_input_ff5acc513b20030057a4a2e334efc47a">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ah_slack_channel</element>
+            <help/>
+            <hint/>
+            <label>Slack Channel</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_ff5acc513b20030057a4a2e334efc47a</name>
+            <plural>Slack Channel</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 20:42:58</sys_created_on>
+            <sys_id>0c6acc513b20030057a4a2e334efc4a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Slack Channel</sys_name>
+            <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ff5acc513b20030057a4a2e334efc47a_ah_slack_channel_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 20:42:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

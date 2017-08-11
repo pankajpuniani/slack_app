@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_slack_action.SlackUtils</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SlackUtils</name>
+        <script><![CDATA[var SlackUtils = Class.create();
+SlackUtils.prototype = {
+	initialize: function() {
+	},
+	
+	createPayload : function(inputs, defaultFields) {
+			var payload = {};
+			payload.text = inputs.message;
+			
+			if (!gs.nil(inputs.channel.trim()))
+				payload.channel = inputs.channel;
+			
+			if (!gs.nil(inputs.icon.trim()))
+				payload.icon_emoji = inputs.icon_emoji.trim();
+			
+			if(!gs.nil(inputs.username.trim()))
+				payload.username = inputs.username;
+			
+			payload.attachments = [];
+			
+			var fields = [];
+			var fieldsToSend = defaultFields.split(',');
+			
+			fieldsToSend.forEach(function (fieldName) {
+				gs.info('Processing field ' + fieldName);
+				fieldName = fieldName.trim();
+				var fieldValue = inputs.record.getDisplayValue(fieldName) || '';
+				gs.info('field value' + fieldValue);
+				var isShort = (fieldValue.length > 30 || fieldName == 'short_description') ? false : true;
+				
+				if (!gs.nil(fieldValue)){
+					fields.push({
+						title:inputs.record[fieldName].getLabel(),
+						value:fieldValue,
+						short:isShort
+					});
+				}
+			});
+			
+			var incidentNumber = inputs.record.getDisplayValue('number');
+			var recordLink = inputs.record.getLink();
+			gs.info('link value' + recordLink);
+			var incidentLink = gs.getProperty('glide.servlet.uri') + recordLink;
+			gs.info('inci link value1' + incidentLink);
+			var incidentUrl = '<' + incidentLink + '|' + incidentNumber + '>';
+			
+			payload.attachments.push({
+				text: incidentUrl,
+				fallback: inputs.message,
+				fields: fields
+			});
+		
+			return payload;
+		},
+		
+		type: 'SlackUtils'
+	};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-11 21:22:31</sys_created_on>
+        <sys_id>095c0c913b20030057a4a2e334efc4dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SlackUtils</sys_name>
+        <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+        <sys_update_name>sys_script_include_095c0c913b20030057a4a2e334efc4dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-11 21:37:47</sys_updated_on>
+    </sys_script_include>
+</record_update>
