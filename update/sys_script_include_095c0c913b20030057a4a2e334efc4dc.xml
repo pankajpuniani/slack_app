@@ -12,9 +12,16 @@ SlackUtils.prototype = {
 	initialize: function() {
 	},
 	
+	htmlEscape : function(str) {
+		return str
+		.replace(/&/g, '&amp;')
+		.replace(/</g, '&lt;')
+		.replace(/>/g, '&gt;');
+	},
+	
 	createPayload : function(inputs, defaultFields) {
 			var payload = {};
-			payload.text = inputs.message;
+			payload.text = this.htmlEscape(inputs.message);
 			
 			if (!gs.nil(inputs.channel.trim()))
 				payload.channel = inputs.channel;
@@ -29,6 +36,7 @@ SlackUtils.prototype = {
 			
 			var fields = [];
 			var fieldsToSend = defaultFields.split(',');
+			var _this = this;
 			
 			fieldsToSend.forEach(function (fieldName) {
 				gs.info('Processing field ' + fieldName);
@@ -38,6 +46,7 @@ SlackUtils.prototype = {
 				var isShort = (fieldValue.length > 30 || fieldName == 'short_description') ? false : true;
 				
 				if (!gs.nil(fieldValue)){
+					fieldValue = _this.htmlEscape(fieldValue);
 					fields.push({
 						title:inputs.record[fieldName].getLabel(),
 						value:fieldValue,
@@ -58,7 +67,7 @@ SlackUtils.prototype = {
 				fallback: inputs.message,
 				fields: fields
 			});
-		
+			
 			return payload;
 		},
 		
@@ -68,13 +77,13 @@ SlackUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-11 21:22:31</sys_created_on>
         <sys_id>095c0c913b20030057a4a2e334efc4dc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>SlackUtils</sys_name>
         <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
         <sys_update_name>sys_script_include_095c0c913b20030057a4a2e334efc4dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-11 21:37:47</sys_updated_on>
+        <sys_updated_on>2017-08-12 00:36:55</sys_updated_on>
     </sys_script_include>
 </record_update>

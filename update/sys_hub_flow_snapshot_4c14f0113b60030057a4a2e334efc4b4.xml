@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_hub_flow">
-    <sys_hub_flow action="INSERT_OR_UPDATE">
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <active>true</active>
         <description/>
         <label_cache>[{"name":"Created_1.current","label":"Trigger➛Problem Record","reference":"problem","reference_display":"Problem","type":"reference","base_type":"reference"}]</label_cache>
-        <latest_snapshot display_value="prb flow">6389f8513b60030057a4a2e334efc4fd</latest_snapshot>
         <name>prb flow</name>
-        <show_draft_actions>false</show_draft_actions>
+        <parent_flow display_value="prb flow">fe04e0993b20030057a4a2e334efc431</parent_flow>
         <status>published</status>
-        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-11 22:35:07</sys_created_on>
-        <sys_id>fe04e0993b20030057a4a2e334efc431</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_created_on>2017-08-11 23:45:07</sys_created_on>
+        <sys_id>4c14f0113b60030057a4a2e334efc4b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>prb flow</sys_name>
         <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
-        <sys_update_name>sys_hub_flow_fe04e0993b20030057a4a2e334efc431</sys_update_name>
+        <sys_update_name>sys_hub_flow_snapshot_4c14f0113b60030057a4a2e334efc4b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-12 00:09:07</sys_updated_on>
-    </sys_hub_flow>
+        <sys_updated_on>2017-08-11 23:45:07</sys_updated_on>
+    </sys_hub_flow_snapshot>
 </record_update>

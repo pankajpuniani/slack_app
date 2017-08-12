@@ -2,20 +2,20 @@
 <record_update table="sys_flow_trigger_plan">
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan_id>fe04e0993b20030057a4a2e334efc431</plan_id>
-        <snapshot>6389f8513b60030057a4a2e334efc4fd</snapshot>
+        <plan_id>52a17c9d3b20030057a4a2e334efc4a3</plan_id>
+        <snapshot>e5a3bcdd3b20030057a4a2e334efc478</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-11 22:36:33</sys_created_on>
-        <sys_id>7f5424993b20030057a4a2e334efc4c6</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>ff5424993b20030057a4a2e334efc4c4</sys_name>
+        <sys_created_on>2017-08-11 23:43:18</sys_created_on>
+        <sys_id>61a330113b60030057a4a2e334efc432</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e1a330113b60030057a4a2e334efc430</sys_name>
         <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
-        <sys_update_name>sys_flow_trigger_plan_7f5424993b20030057a4a2e334efc4c6</sys_update_name>
+        <sys_update_name>sys_flow_trigger_plan_61a330113b60030057a4a2e334efc432</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-12 00:09:07</sys_updated_on>
-        <trigger display_value="">ff5424993b20030057a4a2e334efc4c4</trigger>
+        <sys_updated_on>2017-08-11 23:43:18</sys_updated_on>
+        <trigger display_value="">e1a330113b60030057a4a2e334efc430</trigger>
     </sys_flow_trigger_plan>
 </record_update>

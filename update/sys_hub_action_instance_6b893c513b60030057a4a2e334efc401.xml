@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post Problem Details">2460349d3b20030057a4a2e334efc45d</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Post Problem Details">2460349d3b20030057a4a2e334efc45d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="prb flow">6389f8513b60030057a4a2e334efc4fd</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-12 00:09:06</sys_created_on>
+        <sys_id>6b893c513b60030057a4a2e334efc401</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Slack Action" source="x_slack_action">6fbb58c718100300964f307d9570669b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slack Action">6fbb58c718100300964f307d9570669b</sys_scope>
+        <sys_update_name>sys_hub_action_instance_6b893c513b60030057a4a2e334efc401</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-12 00:09:06</sys_updated_on>
+        <ui_id>48a89ac7-e3fb-4706-ac5f-46c487589407</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6b893c513b60030057a4a2e334efc401"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b893c513b60030057a4a2e334efc401</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-12 00:09:06</sys_created_on>
+        <sys_id>2f893c513b60030057a4a2e334efc404</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-12 00:09:06</sys_updated_on>
+        <value>
+</value>
+        <variable display_value="">f460349d3b20030057a4a2e334efc483</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b893c513b60030057a4a2e334efc401</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-12 00:09:06</sys_created_on>
+        <sys_id>6b893c513b60030057a4a2e334efc404</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-12 00:09:06</sys_updated_on>
+        <value>New prb created1 &amp;&amp; new &amp; with &lt;google.com&gt;</value>
+        <variable display_value="">fc60349d3b20030057a4a2e334efc499</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b893c513b60030057a4a2e334efc401</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-12 00:09:06</sys_created_on>
+        <sys_id>a7893c513b60030057a4a2e334efc404</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-12 00:09:06</sys_updated_on>
+        <value>2faa737c3ba0030057a4a2e334efc488</value>
+        <variable display_value="">2c60349d3b20030057a4a2e334efc45f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6b893c513b60030057a4a2e334efc401"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_additional_message</field>
+        <id>6b893c513b60030057a4a2e334efc401</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-12 00:09:06</sys_created_on>
+        <sys_id>63893c513b60030057a4a2e334efc404</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-12 00:09:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2460349d3b20030057a4a2e334efc45d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_problem_record</field>
+        <id>6b893c513b60030057a4a2e334efc401</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-12 00:09:06</sys_created_on>
+        <sys_id>af893c513b60030057a4a2e334efc403</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-12 00:09:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2460349d3b20030057a4a2e334efc45d</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_slack_channel</field>
+        <id>6b893c513b60030057a4a2e334efc401</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-12 00:09:06</sys_created_on>
+        <sys_id>27893c513b60030057a4a2e334efc404</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-12 00:09:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2460349d3b20030057a4a2e334efc45d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_slack_channel_alias</field>
+        <id>6b893c513b60030057a4a2e334efc401</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-12 00:09:06</sys_created_on>
+        <sys_id>eb893c513b60030057a4a2e334efc403</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-12 00:09:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2460349d3b20030057a4a2e334efc45d</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
